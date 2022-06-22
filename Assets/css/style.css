@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: center; 
+} 
+
+a{
+    text-decoration: none;
+    color: rgb(54, 228, 228);
+}
+
+header.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 248, 177);
+}
+
+footer.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav{
+    display: flex;
+    background-color: rgb(83,0,160);
+    margin-left: 2%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.box a{
+    text-align: center;
+    background-color: rgb(83, 0, 160);
+    margin-left: 15px;
+}
