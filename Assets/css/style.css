@@ -1,6 +1,12 @@
 *{
     margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(54, 228, 228);
 }
 
 section{
@@ -8,12 +14,23 @@ section{
     height: 20%;
     width: 100%;
     justify-content: center; 
-/*     background-color: aqua;
- */} 
+} 
 
-a{
-    text-decoration: none;
-    color: rgb(54, 228, 228);
+section.application{
+    display: flex;
+    border: 5px solid black;
+    min-height: 35%;
+    width: 40%;
+    justify-content: start;
+
+}
+
+section.application img{
+    
+}
+
+section.flex-container{
+    display: flex;
 }
 
 header.flex-container{
@@ -22,6 +39,7 @@ header.flex-container{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(34, 248, 177);
+    padding: 7px 0%;
 }
 
 footer.flex-container{
